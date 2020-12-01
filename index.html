@@ -7,251 +7,273 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
     <title>Kittuts Salgados</title>
 </head>
 
-<body>
-<style>
-    h1 {font-family: 'Modak', cursive;
-        
-    }
+<body class="bg-light">
+
+    <!-- INICIO DO HEADER -->
+    <header>    
+        <nav class="navbar flex-top navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand ml-2" href="#">
+                <img src="assets/img/mini_logo.jpg" class="rounded" width="80" height="40" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-danger" href="index.html">
+                            <b> Home </b> <span class="sr-only">(Página
+                                atual)</span>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="salgados.html"><b>Salgados</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#"><b>Bolos</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#"><b>Doces</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#"> <b> Bebidas </b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <b>Kit's uuts</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>Festinha p/ 10 pessoas</b></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>Festa p/ 25 pessoas</b></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>Festão p/ 50 pessoas</b></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>A Festa do Ano p/ 100
+                                    pessoas</b></a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <b>Filiais</b>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>Sede Vila Matilde</b></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>Filial Arthur Alvim</b></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger bg-warning" href="#"><b>Filial Vila Ré</b></a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- TERMINO DO HEADER -->
 
 
-</style>
-    <nav class="navbar flex-top navbar-expand-lg navbar-light bg-warning">
-        <a class="navbar-brand" href="#">
-            <img src="assets/img/mini_logo.jpg" class="rounded" width="90" height="90" alt="">
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link text-danger" href="index.html"><b> Home </b> <span class="sr-only">(Página
-                            atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-danger" href="salgados.html"><b>Salgados</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-danger" href="#"><b>Bolos</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-danger" href="#"><b>Doces</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-danger" href="#"> <b> Bebidas </b></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <b>Kit's uuts</b>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>Festinha p/ 10 pessoas</b></a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>Festa p/ 25 pessoas</b></a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>Festão p/ 50 pessoas</b></a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>A Festa do Ano p/ 100
-                                pessoas</b></a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <b>Filiais</b>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>Sede Vila Matilde</b></a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>Filial Arthur Alvim</b></a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger bg-warning" href="#"><b>Filial Vila Ré</b></a>
-
-                    </div>
-                </li>
-            </ul>
+    <!-- INICIO MENSAGEM INICIAL -->
+    <div class="rows">
+        <div class="col text-warning bg-danger">
+            <h1 class="fonte text-center"><em> ★★★★★ BEM-VINDE ao KITUUTSS ★★★★★</h1>
+            <p class="text-center"> <b> Os melhores salgados da Zona Leste de São Paulo...</b> </p>
         </div>
-    </nav>
+    </div>
+    <!-- TERMINO MENSAGEM INICIAL -->
 
+    <main class="container mt-5">
 
-    <!-- mensagem inicial de bem-vinde aos clientes -->
-    <div class="container">
-        <div class="row w-100">
-            <div class="col align-self-start center text-warning bg-danger ">
-                <h1 class="fonte"><em> ★★★★★ BEM-VINDE ao KITUUTSS ★★★★★</h1>
-                <p> <b> Os melhores salgados da Zona Leste de São Paulo...</b> </p>
+        <!-- INICIO MENSAGEM AVALIAÇÕES -->
+        <div class="row w-100 mt-5">
+            <div class="col text-warning">
+                <h1 class="fonte text-center"><em> ★★★★★ AVALIAÇÕES ★★★★★</h1>
+                    
             </div>
         </div>
-    </div>
-<br><br><br>
- <!--Cards-->
+    <!-- TERMINO MENSAGEM AVALIAÇÕES -->
 
-
-
-  
-
-    <div class="card-deck justify-content-center">
-        <div class="card">
-          <img class="card-img-top" src="assets/img/salgados.jpg" width="150" height="250 alt="Imagem de sagados">
-          <div class="card-body">
-            <h5 class="card-title">Avaliação:</h5>
-            <p class="card-text">"Paixão, só isso kkk estou apaixonada, comprei os salgados para festa do meu "filhotes" todo mundo gostou, inclusive as ceinças que não são fáceis de agradar..."</p>
-          </div>
-          <div class="card-footer  bg-danger">
-            <small class="text-warning">Atualizados 27 minutos atrás</small>
-            <p class="text-warning" > <b> Nota:</b> ★★★★★ </p>
-          </div>
+        <!-- INICIO DOS CARDS -->
+        <div class="card-deck justify-content-center">
+            <div class="card card-avaliacao">
+                <img class="card-img-top" src="assets/img/salgados.jpg" width="150" height="250 alt="Imagem de sagados">
+                <div class="card-body">
+                    <h5 class="card-title">Avaliação:</h5>
+                    <p class="card-text text-justify">"Paixão, só isso kkk estou apaixonada, comprei os salgados para festa do meu "filhotes" todo mundo gostou, inclusive as ceinças que não são fáceis de agradar..."</p>
+                </div>
+                <div class="card-footer bg-danger">
+                    <small class="text-warning">Atualizados 27 minutos atrás</small>
+                    <p class="text-warning" > <b> Nota:</b> ★★★★★ </p>
+                </div>
+            </div>
+            <div class="card card-avaliacao">
+                <img class="card-img-top" src="assets/img/salgados2.jpg" width="150" height="250 alt="Imagem de salgados">
+                <div class="card-body">
+                    <h5 class="card-title">Avaliação:</h5>
+                    <p class="card-text text-justify">"Eu e minha família amamos os salgaso, com toda certeza vamos voltar e falar para os parentes e amigos, além do preço justo..."</p>
+                </div>
+                <div class="card-footer bg-danger">
+                    <small class="text-warning">Atualizados 17 minutos atrás</small>
+                    <p class="text-warning" > <b> Nota:</b> ★★★★★ </p>
+                </div>
+            </div>
+            <div class="card card-avaliacao">
+                <img class="card-img-top" src="assets/img/torta.jpg" width="200" height="250 alt="Imagem de torta de morango">
+                <div class="card-body">
+                    <h5 class="card-title">Avaliação:</h5>
+                    <p class="card-text text-justify">"Minha mão amou a torta, disse que foi a melhor de toda sua vida, e ainda melhor que minha filha também me deu uma rsrs gostei muitooo..."</p>
+                </div>
+                <div class="card-footer bg-danger">
+                    <small class="text-warning">Atualizados 33 minutos atrás</small>
+                    <p class="text-warning" > <b> Nota:</b> ★★★★★ </p>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/salgados2.jpg"  width="150" height="250 alt="Imagem de salgados">
-          <div class="card-body">
-            <h5 class="card-title">Avaliação:</h5>
-            <p class="card-text">"Eu e minha família amamos os salgaso, com toda certeza vamos voltar e falar para os parentes e amigos, além do preço justo..."</p>
-          </div>
-          <div class="card-footer  bg-danger">
-            <small class="text-warning">Atualizados 17 minutos atrás</small>
-            <p class="text-warning" > <b> Nota:</b> ★★★★★ </p>
-          </div>
+        <!-- TERMINO DOS CARDS -->
+
+        <!-- INICIO MENSAGEM BOLOS -->
+            <div class="row w-100 mt-5">
+                <div class="col text-warning">
+                    <h1 class="fonte text-center"><em> ★★★★★ RECEITAS ★★★★★</h1>
+                        
+                </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/torta.jpg" width="200" height="250 alt="Imagem de torta de morango">
-          <div class="card-body">
-            <h5 class="card-title">Avaliação:</h5>
-            <p class="card-text">"Minha mão amou a torta, disse que foi a melhor de toda sua vida, e ainda melhor que minha filha também me deu uma rsrs gostei muitooo..."</p>
-          </div>
-          <div class="card-footer  bg-danger">
-            <small class="text-warning">Atualizados 33 minutos atrás</small>
-            <p class="text-warning" > <b> Nota:</b> ★★★★★ </p>
-          </div>
+        <!-- TERMINO MENSAGEM BOLOS -->
+
+        <!-- INICIO DOS TEXTOS E VIDEOS -->
+        <div class="row mt-1 mb-5">
+            <div class="col-md-6">
+                <h3>Aprenda fazer você mesme...</h3>
+                <p class="text-justify"> Todos nossos salgados são feitos com carinho e amor, igualzinho como são feitas as refeições na sua casa, então aqui vai uma ótima dica de vídeo ensinando a fazer coxinha caseira.
+                </p>
+                
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UOQVBD7M-kQ" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
         </div>
-      </div>
-
-
-        <!--/Cards-->
-
-
-
-    <!--Texto e Vídeo-->
-
-    <div class="row mt-5 mb-5">
-      <div class="col-md-6">
-        <h3>Aprenda fazer você mesme...</h3>
-        <p> Todos nossos salgados são feitos com carinho e amor, igualzinho como são feitas as refeições na sua casa, então aqui vai uma ótima dica de vídeo ensinando a fazer coxinha caseira.
-        </p>
+        <!-- TERMINO DOS TEXTOS E VIDEOS -->
         
-      </div>
+        <!-- INICIO MENSAGEM BOLOS -->
+        <div class="row w-100 mt-5">
+            <div class="col text-warning">
+                <h1 class="fonte text-center"><em> ★★★★★ BOLOS ★★★★★</h1>
+                    
+            </div>
+        </div>
+        <!-- TERMINO MENSAGEM BOLOS -->
 
-      <div class="col-md-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UOQVBD7M-kQ" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <!--/Texto e Video-->
-
-
+        <!-- INICIO CAROUSEL -->
+        <div id="carouselExampleIndicators" class="carousel slide mt-1 w-100" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/cup.jpg" width="780" height="780"
+                        alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/cup2.jpg" width="780" height="780"
+                        alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/cup3.jpg" width="780" height="780"
+                        alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <!-- TERMINO CAROUSEL -->
     
-      <!--Formulário e Mapa-->
+        <!-- INICIO FORM E MAPA -->
+        <div class="row mt-5 w-100">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="txtNome">Nome *</label>
+                        <input type="text" class="form-control" id="txtNome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="txtEmail">Email *</label>
+                      <input type="email" class="form-control" id="txtEmail" placeholder="name@example.com" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="txtDescricao">Descrição pedido *</label>
+                      <textarea class="form-control" id="txtDescricao" rows="5" placeholder="Digite a descrição" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+                </form>                
+            </div>
+            
+            <div class="col-6">
+                <p><b>Endereço:</b></p>
+                <p>Av. Waldemar Carlos Pereira, 296-A</p>
+                <p>Vila Matilde, São Paulo - SP, 03533-000</p>                
+                <p><b>Telefone:</b></p>
+                <p>(11) 2653-0226</p>
 
-      <div class="row d-flex align-items-center">
-        <div class="col-md-6">
-            <form>
-                <h2>Pedido personalizado deixe seu contato:</h2>
-                <label for="nome">Nome:</label> <br>
-                <input type="text" id="nome" onkeyup="validaNome()">
-                <div id="txtNome"></div>
-                <br>
-                <label for="email">E-mail:</label> <br>
-                <input type="text" id="email" onkeyup="validaEmail()">
-                <div id="txtEmail"></div>
-                <br>
-                <label for="assunto">Descrição pedido:</label> <br>
-                <textarea name="assunto" id="assunto" cols="60" rows="7" onkeyup="validaAssunto()"></textarea>
-                <div id="txtAssunto"></div>
-                <br>
-                <button onclick="enviar()">Enviar</button>
-
-            </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.8731050201!2d-46.5225105!3d-23.5426331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb12f6ba8a192140a!2sKituutss!5e0!3m2!1spt-BR!2sbr!4v1606403824065!5m2!1spt-BR!2sbr" 
+            width="600" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
         </div>
-        <br> <br>
-        <div class="padding-30">
-            <p><b>Endereço:</b></p>
-            <p>Av. Waldemar Carlos Pereira, 296-A</p>
-            <p>Vila Matilde, São Paulo - SP, 03533-000</p>
-            <br>
-            <p><b>Telefone:</b></p>
-            <p>(11) 2653-0226</p>
-
-           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.8731050201!2d-46.5225105!3d-23.5426331!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb12f6ba8a192140a!2sKituutss!5e0!3m2!1spt-BR!2sbr!4v1606403824065!5m2!1spt-BR!2sbr" 
-           width="600" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-
-    </div>
+        <!-- TERMINO FORM E MAPA -->
 
 
+        <!-- INICIO FRASE INFERIOR -->
+        <blockquote class="blockquote text-center w-100">
+            <br><br>
+            <p class="mb-0"><b><em>Assim como existe um vírus invisível que pode matar, existe um Deus invisível, que pode
+                        curar, libertar e salvar!! Creia!!</em></b></p>
+            <footer class="blockquote-footer"><b>Autor: <cite title="Título da fonte">Jesus</b></cite></footer>
+        </blockquote>
+        <!-- TERMINO FRASE INFERIOR -->
 
+    </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Frase do dono da loja -->
-    <blockquote class="blockquote text-center">
-        <br><br>
-        <p class="mb-0"><b><em>Assim como existe um vírus invisível que pode matar, existe um Deus invisível, que pode
-                    curar, libertar e salvar!! Creia!!</em></b></p>
-        <footer class="blockquote-footer"><b>Autor: <cite title="Título da fonte">Jesus</b></cite></footer>
-    </blockquote>
-
-    <!-- Acesso as redes sociais da empresa -->
+    <!-- INICIO RODAPE -->
     <hr>
     <footer>
 
-        <div class="row mb-3">
-            <div class="col-md-12 d-flex justify-content-center">
+        <div class="row mb-3" >
+            <div class="col-md-12 d-flex justify-content-center " >
+                
+                    <a href="https://web.facebook.com/pages/Kituutss%20Salgados/1809796375731544/" target="_blank"
+                        class="p-3" >
+                        <i class="fab fa-facebook Facebook icone"></i>
+                    </a>
 
-                <a href="https://web.facebook.com/pages/Kituutss%20Salgados/1809796375731544/" target="_blank"
-                    class="p-3">
-                    <img class="tm-social" src="assets/img/facebook.jpg" width="40" height="40 alt=" Logo do Facebook">
-                </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="p-3">
+                        <i class="fab fa-instagram Instagram icone"></i>
+                    </a>
 
-                <a href="https://www.linkedin.com/" target="_blank" class="p-3">
-                    <img class="tm-social" src="assets/img/instagram.jpg" width="45" height="45 alt=" Logo do
-                        Instagram">
-                </a>
-
-                <a href="assets/img/Kituutss.vcf" target="_blank" class="p-3">
-                    <img class="tm-social" src="assets/img/whatsapp.jpg" width="45" height="45 alt=" Logo do whatsapp">
-                </a>
+                    <a href="assets/img/Kituutss.vcf" target="_blank" class="p-3">
+                        <i class="fab fa-whatsapp Whatsapp icone"></i>
+                    </a>
+                
             </div>
         </div>
 
@@ -266,11 +288,13 @@
 
 
     </footer>
+    <!-- TERMINO RODAPE -->
+
 
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="assets/js/script.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -280,6 +304,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>

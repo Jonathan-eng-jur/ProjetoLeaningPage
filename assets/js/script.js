@@ -7,6 +7,10 @@ por Classe: getElementsByClassName()
 por seletor: quarySelector() necessário usar ###
 */
 
+$( document ).ready(function() {
+   confirm("Cookies: Olá, nós guardamos estatísticas das visitas para melhorar sua experiência de navegação, saiba mais em nossa política de privacidade.");
+});
+
 let nome = window.document.getElementById('nome')
 let email = window.document.querySelector("#email")
 let assunto = window.document.querySelector("#assunto")
@@ -76,3 +80,5 @@ function mapaNormal() {
    mapa.style.width = '400px'
    mapa.style.height = '250px'
 }
+
+

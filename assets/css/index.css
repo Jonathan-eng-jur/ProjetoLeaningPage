@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Modak', cursive;        
+}
+
+.card-avaliacao:hover{
+    box-shadow: inset 0 0 1em black, 0 0 1em red;
+    transform:scale(1.05);
+    transition: .5s;    
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 3px;
+    width:90px;
+    height:90px; 
+    
+  }
+
+  .icone{
+      color: black;
+      font-size: 2rem;
+  }
+
+   .Facebook:hover{
+    color: #3b5998;
+    transition: .5s;  
+  }
+  
+  .Whatsapp:hover{
+  color: #0ff11b;
+  transition: .5s;  
+  }
+  
+  .Instagram:hover{
+  color: #c43787;
+  transition: .5s;  
+  }
+
+  
